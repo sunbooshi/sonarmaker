@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>cn.oc.sonar.afnetwroking</string>
+	<key>Program</key>
+	<string>/Users/drsun/jenkins/jenkins-sonar.py</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/drsun/jenkins/jenkins-sonar.py</string>
+		<string>AFNetwroking.json</string>
+		<string>-git</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>WorkingDirectory</key>
+	<string>/Users/drsun/jenkins/afnetwroking</string>
+	<key>StartInterval</key>
+	<integer>3600</integer>
+	<key>StandardOutPath</key>
+	<string>/Users/drsun/jenkins/afnetwroking/build.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/drsun/jenkins/afnetwroking/error.log</string>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>LC_ALL</key>
+		<string>en_US.UTF-8</string>
+		<key>PYTHONIOENCODING</key>
+		<string>utf-8</string>
+	</dict>
+</dict>
+</plist>

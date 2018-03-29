@@ -1,0 +1,9 @@
+#!/bin/bash
+rm chrome/index.html
+rm -fr chrome/dist
+
+npm run build
+
+cp index.html chrome/
+cp -r dist chrome/
+

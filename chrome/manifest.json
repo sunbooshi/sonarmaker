@@ -1,0 +1,16 @@
+{
+  "name": "iOS项目Sonar配置生成工具",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [],
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["backgroud.js"]
+    }
+  }
+}

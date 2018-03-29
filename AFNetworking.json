@@ -1,0 +1,29 @@
+{
+  "project": {
+    "git": "https://github.com/AFNetworking/AFNetworking.git",
+    "branch": "master",
+    "workspace": "AFNetworking.xcworkspace",
+    "project": "AFNetworking.xcodeproj",
+    "scheme": "AFNetworking iOS",
+    "sdk": "iphonesimulator11.2",
+    "src": "AFNetworking"
+  },
+  "oclint": {
+    "exclude": "Pods",
+    "longLine": "1000",
+    "longMethod": "200",
+    "longVariableName": "40",
+    "cyclomaticComplexity": "10",
+    "disableRules": [
+      "UnusedMethodParameter",
+      "AssignIvarOutsideAccessors",
+      "ShortVariableName"
+    ]
+  },
+  "sonar": {
+    "projectKey": "AFNetworking",
+    "host": "http://localhost:9000",
+    "login": "admin",
+    "password": "admin"
+  }
+}
