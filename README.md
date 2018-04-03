@@ -1,6 +1,6 @@
 ### 项目说明
 
-####更新：
+#### 更新：
 提供了编译好的配置工具，请[点击下载v0.1](https://github.com/sunboshi/sonarmaker/releases/download/v0.1/sonarmaker-0.1.zip)，直接运行`start`脚本，会使用python启动一个简单的WebServer。
 
 在浏览器中访问[http://localhost:9090](http://localhost:9090)即可使用配置工具。
